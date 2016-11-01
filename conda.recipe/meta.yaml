@@ -1,0 +1,19 @@
+package:
+    name: fuzzy
+    version: 0.3
+
+source:
+    git_url: ../
+
+requirements:
+  build:
+    - python
+    - cython
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - fuzzy
