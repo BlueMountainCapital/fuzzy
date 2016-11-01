@@ -24,5 +24,5 @@ setup(
         'Topic :: Text Processing :: Indexing',
         'Topic :: Text Processing :: Linguistic',
     ],
-    long_description=open('README').read(),
+    long_description=open('README.md').read(),
 )
